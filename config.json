@@ -24,21 +24,6 @@
         "protocol": "freedom",
         "settings": {}
     },
-    "inboundDetour": [
-        {
-            "port": 10010,
-            "protocol": "vmess",
-            "settings": {
-                "clients": [
-                    {
-                        "id": "134501b2-3570-9ff7-739c-4f32a0242f6d",
-                        "level": 1,
-                        "alterId": 64
-                    }
-                ]
-            }
-        }
-    ],
     "outboundDetour": [
         {
             "protocol": "blackhole",
